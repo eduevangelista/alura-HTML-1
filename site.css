@@ -1,0 +1,181 @@
+
+
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+main{
+	padding-bottom: 80px;
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+main h1{
+	padding: 30px 0;
+	text-transform: uppercase;
+}
+
+main h1 {
+	text-align: center;
+	background-color: #d17164;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid black;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: 30px;
+	clear: both;
+}
+
+p {
+	text-align: justify;
+	margin: 20px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.bloco {
+	background-color: #D9E5E3;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	box-sizing: border-box;
+	margin: 20px 40px;
+	float: right;
+
+}
+
+aside {
+	background-color: #d17164;
+	color: #F2FFFC;
+}
+
+footer {
+	background-color: #000;
+	color: #F2FFFC;
+}
+
+nav a {
+	color: #F2FFFC;
+	text-transform: lowercase;
+}
+
+main a {
+	color: #a46a81;
+}
+
+aside a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+blockquote, aside, footer {
+    padding: 20px;
+}
+
+main div {
+	width: 720px;
+	margin: auto;
+}
+
+aside {
+	text-align: center;
+}
+
+aside h1{
+	font-size: 30px;
+	margin-bottom:25px ;
+}
+
+.icones li {
+display: inline-block;
+}
+
+.rodape-article footer {
+	background-color: #d6f7ef;
+	margin-bottom: 15px;
+	color:rgb(0, 0, 0);
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 25px;
+	box-shadow: 5px 2px 2px 2px  #e5fcff;
+	border-radius: 5px;
+	text-align: center;
+
+}
+
+.rodape-article a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.leia-mais{
+
+		border-radius: 5px;
+		padding: 8px;
+		margin: 16px;
+		display: block;
+		font-size: 24px;
+		text-align: center;
+		background-color: #E6E7E8;
+		box-shadow: 5px 2px 2px 2px  #e5fcff;
+	
+}
+
+.icones a{
+width: 40px;
+height: 40px;
+display: inline-block;
+text-indent: -9999px;
+
+}
+.github{background-image: url(github.png);}
+.twitter{background-image: url(twitter.png);}
+.linkedin{background-image: url(linkedin.png);}
+
+aside, img{
+	float: right;
+	width: 15%;
+}
+aside{
+clear: right;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 5px 5px;
+}
+main{
+	float: left;
+	width: 85%;
+}
+footer{
+	clear: both;
+}
+
+cite{
+	float: right;
+	font-style: italic	;
+}
+
+img{
+	border-radius: 5px;;
+}
+
+.rodape-pagina {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
